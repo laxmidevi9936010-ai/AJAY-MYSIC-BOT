@@ -33,9 +33,9 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    API_ID = int(os.environ.get("API_ID", None))
-    API_HASH = os.environ.get("API_HASH", None)
-    ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
+    API_ID = int(os.environ.get("35828291", None))
+    API_HASH = os.environ.get("c025ee9d01d73b9d738d4f3e5e6137e2", None)
+    ALLOW_CHATS = os.environ.get("-1003902609043", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     DB_URI = os.environ.get("DATABASE_URL")
@@ -49,14 +49,14 @@ if ENV:
         "START_IMG", "https://telegra.ph/file/40eb1ed850cdea274693e.jpg"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "DevilsHeavenMF")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "AjayApis")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("8502123724:AAE7FwBC_yjH249e2Dq8X1gUZkq_aAwrdug", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("7953454559", None))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
