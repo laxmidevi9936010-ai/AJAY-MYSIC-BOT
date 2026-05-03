@@ -7,7 +7,7 @@ class Config(object):
 
     CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgresql://postgres:voKUUnzvaUpRMeCeLjwjJHjcrpjoVgAD@tramway.proxy.rlwy.net:29890/railway"  # A sql database url from elephantsql.com
 
     EVENT_LOGS = ()  # Event logs channel to note down important bot level events
 
@@ -18,7 +18,7 @@ class Config(object):
 
     SUPPORT_CHAT = "AjayApis"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "8502123724:AAE7FwBC_yjH249e2Dq8X1gUZkq_aAwrdug"  # Get bot token from @BotFather on Telegram
+    TOKEN = "7654989460:AAGv7shl_-fN57VElCctFNGhn_L9xhqEU7g"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
 
